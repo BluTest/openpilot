@@ -95,12 +95,14 @@ struct CarEvent @0x9b1657f34caf3ad3 {
     fcw @79;
     steerSaturated @80;
     whitePandaUnsupported @81;
+    startupGreyPanda @82;
     belowEngageSpeed @84;
     noGps @85;
     wrongCruiseMode @87;
     modeldLagging @89;
     deviceFalling @90;
     fanMalfunction @91;
+    cameraMalfunction @92;
 
     gasUnavailableDEPRECATED @3;
     dataNeededDEPRECATED @16;
@@ -112,7 +114,6 @@ struct CarEvent @0x9b1657f34caf3ad3 {
     calibrationProgressDEPRECATED @47;
     invalidGiraffeHondaDEPRECATED @49;
     canErrorPersistentDEPRECATED @83;
-    startupWhitePandaDEPRECATED @82;
     focusRecoverActiveDEPRECATED @86;
     neosUpdateRequiredDEPRECATED @88;
   }
